@@ -1,0 +1,19 @@
+<Scomar82_HeadshotMod>
+
+	<append xpath="/item_modifiers">
+	
+		<item_modifier name="modGunHeadShot" installable_tags="weapon" modifier_tags="scope,specialDamage" blocked_tags="noMods,noScopes" type="attachment">
+		<property name="UnlockedBy" value="modGunHeadShotSchematic"/>
+		<property name="CustomIcon" value="modGunHeadShot"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<effect_group tiered="false">
+			<passive_effect name="DamageModifier" operation="perc_add" value="50000" tags="head"/>
+			<passive_effect name="DamageModifier" operation="perc_subtract" value="100" tags="lowerbody,upperbody"/> <!-- Schaden für andere Treffer außer dem Kopf reduzieren base_subtract-->
+		</effect_group>
+		<property name="PickupJournalEntry" value="HeadShot-ModTip"/>
+	</item_modifier>
+		
+	</append>
+
+</Scomar82_HeadshotMod>

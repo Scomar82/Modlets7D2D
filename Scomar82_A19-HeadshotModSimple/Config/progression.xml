@@ -1,0 +1,11 @@
+<Scomar82_HeadShotMod>
+	<!-- Hinweis -->
+		
+	<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']">
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="modGunHeadShot"/>
+		</effect_group>
+	</append>
+	
+	
+</Scomar82_HeadShotMod>

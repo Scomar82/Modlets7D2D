@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Scomar82_HeadshotModSimple" />
+		<Description value="Weapon-Mod for Headshots simple Version without Quests" />
+		<Author value="Scomar82" />
+		<Version value="1.25a" comp="A19"/>
+		<Website value="https://github.com/Scomar82/7-Days-Modlets" />
+	</ModInfo>
+</xml>

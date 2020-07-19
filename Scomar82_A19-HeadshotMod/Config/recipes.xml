@@ -1,0 +1,40 @@
+<Scomar82_HeadshotMod>
+
+	<append xpath="/recipes">
+	
+		<recipe name="emptybookzeds" count="1" craft_time="10">
+			<ingredient name="resourcePaper" count="15"/>
+			<ingredient name="resourceGlue" count="3"/>
+			<ingredient name="resourcePaint" count="5"/>
+		</recipe>
+		
+		<recipe name="bookzeds" count="1" craft_time="10">
+			<ingredient name="resourceBowTest" count="1"/>
+			<ingredient name="resourcePistolTest" count="1"/>
+			<ingredient name="resourceRifleTest" count="1"/>
+		</recipe>
+		
+				
+		<recipe name="modGunHeadShot" count="1" craft_area="workbench" tags="learnable">
+			<ingredient name="resourceForgedIron" count="30"/>
+			<ingredient name="resourceNail" count="15"/>
+			<ingredient name="resourceDuctTape" count="5"/>
+			<ingredient name="resourceMechanicalParts" count="5"/>
+		</recipe>
+		
+		<recipe name="qRifleTraining" count="1" craft_time="2">
+			<ingredient name="resourceBowTest" count="1"/>
+			<ingredient name="gunHandgunT1Pistol" count="1"/>
+			<ingredient name="PistolCoin" count="1"/>
+		</recipe>
+		
+		<recipe name="resourceRifleTest" count="1" craft_time="2">
+			<ingredient name="resourcePistolTest" count="1"/>
+			<ingredient name="gunRifleT1HuntingRifle" count="1"/>
+			<ingredient name="RifleCoin" count="1"/>
+		</recipe>
+		
+	</append>
+
+
+</Scomar82_HeadshotMod>

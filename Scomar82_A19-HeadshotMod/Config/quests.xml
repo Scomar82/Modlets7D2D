@@ -1,0 +1,145 @@
+<Scomar82_HeadshotMod>
+
+	<append xpath="/quests">
+
+		<quest id="q_emptybookzeds">
+			<property name="name_key" value="q_emptybookzeds"/>
+			<property name="subtitle_key" value="q_emptybookzeds"/>
+			<property name="description_key" value="q_emptybookzeds_desc"/>
+			<property name="icon" value="ui_game_symbol_zombie"/>
+			<property name="repeatable" value="true"/>
+			<property name="category_key" value="challenge"/>
+			<property name="offer_key" value="q_emptybookzeds_desc"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+
+			<reward type="Exp" value="50"/>
+			<reward type="Item" id="qBowTraining" value="1"/>
+		</quest>
+		
+		<quest id="q_bookzeds">
+			<property name="name_key" value="q_bookzeds"/>
+			<property name="subtitle_key" value="q_bookzeds"/>
+			<property name="description_key" value="q_bookzeds_desc"/>
+			<property name="icon" value="ui_game_symbol_zombie"/>
+			<property name="repeatable" value="true"/>
+			<property name="category_key" value="challenge"/>
+			<property name="offer_key" value="q_bookzeds_desc"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+
+			<reward type="Exp" value="50"/>
+			<reward type="Item" id="modGunHeadShotSchematic" value="1"/>
+		</quest>
+		
+		
+		<quest id="q_BowTraining">
+			<property name="name_key" value="q_BowTraining"/>
+			<property name="subtitle_key" value="q_BowTraining"/>
+			<property name="description_key" value="q_BowTraining_desc"/>
+			<property name="icon" value="ui_game_symbol_zombie"/>
+			<property name="repeatable" value="true"/>
+			<property name="category_key" value="challenge"/>
+			<property name="offer_key" value="q_BowTraining_desc"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+
+			<objective type="ZombieKill" value="10"/>
+				<requirement type="Holding" id="gunBowT0PrimitiveBow"/>
+			
+			<reward type="Exp" value="1000"/>
+			<reward type="Item" id="resourceBowTest" value="2"/>
+			<reward type="Item" id="qPistolTraining" value="1"/>
+			<reward type="Item" id="gunHandgunT1Pistol" value="1"/>
+			<reward type="Item" id="ammo9mmBulletBall" value="50"/>
+		</quest>
+		
+			
+		<quest id="q_PistolTraining">
+			<property name="name_key" value="q_PistolTraining"/>
+			<property name="subtitle_key" value="q_PistolTraining"/>
+			<property name="description_key" value="q_PistolTraining_desc"/>
+			<property name="icon" value="ui_game_symbol_zombie"/>
+			<property name="repeatable" value="true"/>
+			<property name="category_key" value="challenge"/>
+			<property name="offer_key" value="q_PistolTraining_desc"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+
+			<objective type="ZombieKill" value="20" phase="1"/>
+				<requirement type="Holding" id="gunHandgunT1Pistol" phase="1"/>
+						
+			<reward type="Exp" value="1500"/>
+			<reward type="Item" id="resourcePistolTest" value="1"/>
+			<reward type="Item" id="gunRifleT1HuntingRifle" value="1"/>
+			<reward type="Item" id="ammo762mmBulletBall" value="50"/>
+			<reward type="Item" id="PistolCoin" value="1"/>
+			<reward type="Quest" id="craftqRifleTraining"/>
+		</quest>
+	
+		<quest id="craftqRifleTraining">
+			<property name="name_key" value="craftqRifleTraining"/>
+			<property name="subtitle_key" value="craftqRifleTraining_desc"/>
+			<property name="description_key" value="craftqRifleTraining_desc"/>
+			<property name="icon" value="ui_game_symbol_book"/>
+			<property name="category_key" value="quest"/>
+			<property name="difficulty" value="veryeasy"/>
+			<property name="shareable" value="false"/>
+
+			<objective type="Craft" id="qRifleTraining" value="1"/>
+						
+			<reward type="Exp" value="50"/>
+		</quest>
+	
+		<quest id="q_RifleTraining">
+			<property name="name_key" value="q_RifleTraining"/>
+			<property name="subtitle_key" value="q_RifleTraining"/>
+			<property name="description_key" value="q_RifleTraining_desc"/>
+			<property name="icon" value="ui_game_symbol_zombie"/>
+			<property name="repeatable" value="true"/>
+			<property name="category_key" value="challenge"/>
+			<property name="offer_key" value="q_RifleTraining_desc"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+
+			<objective type="ZombieKill" value="30" phase="1"/>
+				<requirement type="Holding" id="gunRifleT1HuntingRifle" phase="1"/>
+			
+			<reward type="Exp" value="2000"/>
+			<reward type="Item" id="resourcePistolTest" value="1"/>
+			<reward type="Item" id="RifleCoin" value="1"/>
+			<reward type="Quest" id="craftresourceRifleTest"/>
+		</quest>
+		
+		<quest id="craftresourceRifleTest">
+			<property name="name_key" value="craftresourceRifleTest"/>
+			<property name="subtitle_key" value="craftresourceRifleTest_desc"/>
+			<property name="description_key" value="craftresourceRifleTest_desc"/>
+			<property name="icon" value="ui_game_symbol_book"/>
+			<property name="category_key" value="quest"/>
+			<property name="difficulty" value="veryeasy"/>
+			<property name="shareable" value="false"/>
+
+			<objective type="Craft" id="resourceRifleTest" value="1"/>
+			
+			<reward type="Exp" value="50"/>
+			<reward type="Quest" id="craftbookzeds"/>
+		</quest>
+		
+		<quest id="craftbookzeds">
+			<property name="name_key" value="craftbookzeds"/>
+			<property name="subtitle_key" value="craftbookzeds_desc"/>
+			<property name="description_key" value="craftbookzeds_descl"/>
+			<property name="icon" value="ui_game_symbol_book"/>
+			<property name="category_key" value="quest"/>
+			<property name="difficulty" value="veryeasy"/>
+			<property name="shareable" value="false"/>
+
+			<objective type="Craft" id="bookzeds" value="1"/>
+			
+			<reward type="Exp" value="2500"/>
+		</quest>
+		
+	</append>
+
+</Scomar82_HeadshotMod>

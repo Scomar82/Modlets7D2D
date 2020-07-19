@@ -1,0 +1,152 @@
+<Scomar82_HeadshotMod>
+	
+	<append xpath="/items" >
+
+		<item name="emptybookzeds">
+			<property name="Extends" value="questMaster" />
+			<property name="CustomIcon" value="emptybookzeds"/>
+			<property name="Description" value="emptybookzedsDesc"/>
+			<property name="Group" value="Science"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="q_emptybookzeds" />
+			</property>
+		</item>
+		
+		<item name="bookzeds">
+			<property name="Extends" value="questMaster" />
+			<property name="CustomIcon" value="bookzeds"/>
+			<property name="Description" value="bookzedsDesc"/>
+			<property name="Group" value="Science"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="q_bookzeds" />
+			</property>
+		</item>
+		
+		
+		<item name="qBowTraining">
+			<property name="Extends" value="questMaster" />
+			<!--<property name="CustomIcon" value="qBowTraining"/>-->
+			<property name="CustomIconTint" value="172,33,50"/>
+			<property name="Description" value="qBowTrainingDesc"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="q_BowTraining" />
+			</property>
+		</item>
+		
+		<item name="qPistolTraining">
+			<property name="Extends" value="questMaster" />
+			<!--<property name="CustomIcon" value="qPistolTraining"/>-->
+			<property name="CustomIconTint" value="172,33,50"/>
+			<property name="Description" value="qPistolTrainingDesc"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="q_PistolTraining" />
+			</property>
+		</item>
+		
+		<item name="qRifleTraining">
+			<property name="Extends" value="questMaster" />
+			<!--<property name="CustomIcon" value="qRifleTraining"/>-->
+			<property name="CustomIconTint" value="172,33,50"/>
+			<property name="Description" value="qRifleTrainingDesc"/>
+			<property name="Group" value="Science"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="q_RifleTraining" />
+			</property>
+		</item>
+		
+		<item name="modGunHeadShotSchematic">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="modGunHeadShot"/>
+			<property name="Unlocks" value="modGunHeadShot"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modGunHeadShot" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+		
+		<item name="resourceBowTest">
+			<!-- scrap material -->
+			<property name="HoldType" value="45" />
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="DescriptionKey" value="resourceBowTestDesc" />
+			<property name="Material" value="MresourcePaper" />
+			<property name="Stacknumber" value="250" />
+			<!-- STK resource -->
+			<property name="FuelValue" value="1" />
+			<property name="Weight" value="2" />
+			<property name="EconomicValue" value="15" />
+			<property name="EconomicBundleSize" value="5" />
+			<property name="Group" value="Resources" />
+			<property name="SellableToTrader" value="false" />
+		</item>
+
+		<item name="resourcePistolTest">
+			<!-- scrap material -->
+			<property name="HoldType" value="45" />
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="DescriptionKey" value="resourcePistolTestDesc" />
+			<property name="Material" value="MresourcePaper" />
+			<property name="Stacknumber" value="250" />
+			<!-- STK resource -->
+			<property name="FuelValue" value="1" />
+			<property name="Weight" value="2" />
+			<property name="EconomicValue" value="15" />
+			<property name="EconomicBundleSize" value="5" />
+			<property name="Group" value="Resources" />
+			<property name="SellableToTrader" value="false" />
+		</item>
+		
+		<item name="resourceRifleTest">
+			<!-- scrap material -->
+			<property name="HoldType" value="45" />
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="DescriptionKey" value="resourceRifleTestDesc" />
+			<property name="Material" value="MresourcePaper" />
+			<property name="Stacknumber" value="250" />
+			<!-- STK resource -->
+			<property name="FuelValue" value="1" />
+			<property name="Weight" value="2" />
+			<property name="EconomicValue" value="15" />
+			<property name="EconomicBundleSize" value="5" />
+			<property name="Group" value="Science"/>
+			<property name="SellableToTrader" value="false" />
+		</item>
+
+		<item name="PistolCoin">
+			<property name="Description" value="Winner!!!"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MresourceScrapBrassMedium"/>
+			<property name="MeltTimePerUnit" value=".4"/>
+			<property name="Stacknumber" value="250"/> <!-- STK loot -->
+			<property name="Weight" value="50"/>
+			<property name="EconomicValue" value="0"/>
+			<property name="Group" value="Resources"/>
+		</item>
+
+		<item name="RifleCoin">
+			<property name="Description" value="Winner!!!"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MresourceScrapBrassMedium"/>
+			<property name="MeltTimePerUnit" value=".4"/>
+			<property name="Stacknumber" value="250"/> <!-- STK loot -->
+			<property name="Weight" value="50"/>
+			<property name="EconomicValue" value="0"/>
+			<property name="Group" value="Resources"/>
+		</item>
+
+		
+
+		
+	</append>
+		
+</Scomar82_HeadshotMod>
