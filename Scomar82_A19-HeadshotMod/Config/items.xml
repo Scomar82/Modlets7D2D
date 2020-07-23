@@ -21,39 +21,7 @@
 				<property name="QuestGiven" value="q_bookzeds" />
 			</property>
 		</item>
-		
-		
-		<item name="qBowTraining">
-			<property name="Extends" value="questMaster" />
-			<!--<property name="CustomIcon" value="qBowTraining"/>-->
-			<property name="CustomIconTint" value="172,33,50"/>
-			<property name="Description" value="qBowTrainingDesc"/>
-			<property class="Action0">
-				<property name="QuestGiven" value="q_BowTraining" />
-			</property>
-		</item>
-		
-		<item name="qPistolTraining">
-			<property name="Extends" value="questMaster" />
-			<!--<property name="CustomIcon" value="qPistolTraining"/>-->
-			<property name="CustomIconTint" value="172,33,50"/>
-			<property name="Description" value="qPistolTrainingDesc"/>
-			<property class="Action0">
-				<property name="QuestGiven" value="q_PistolTraining" />
-			</property>
-		</item>
-		
-		<item name="qRifleTraining">
-			<property name="Extends" value="questMaster" />
-			<!--<property name="CustomIcon" value="qRifleTraining"/>-->
-			<property name="CustomIconTint" value="172,33,50"/>
-			<property name="Description" value="qRifleTrainingDesc"/>
-			<property name="Group" value="Science"/>
-			<property class="Action0">
-				<property name="QuestGiven" value="q_RifleTraining" />
-			</property>
-		</item>
-		
+			
 		<item name="modGunHeadShotSchematic">
 			<property name="Extends" value="schematicNoQualityMaster"/>
 			<property name="CreativeMode" value="Player"/>
@@ -78,7 +46,7 @@
 			<property name="Weight" value="2" />
 			<property name="EconomicValue" value="15" />
 			<property name="EconomicBundleSize" value="5" />
-			<property name="Group" value="Resources" />
+			<property name="Group" value="Science" />
 			<property name="SellableToTrader" value="false" />
 		</item>
 
@@ -95,7 +63,7 @@
 			<property name="Weight" value="2" />
 			<property name="EconomicValue" value="15" />
 			<property name="EconomicBundleSize" value="5" />
-			<property name="Group" value="Resources" />
+			<property name="Group" value="Science" />
 			<property name="SellableToTrader" value="false" />
 		</item>
 		

@@ -14,24 +14,8 @@
 			<property name="shareable" value="false"/>
 
 			<reward type="Exp" value="50"/>
-			<reward type="Item" id="qBowTraining" value="1"/>
+			<reward type="Quest" id="q_BowTraining"/>
 		</quest>
-		
-		<quest id="q_bookzeds">
-			<property name="name_key" value="q_bookzeds"/>
-			<property name="subtitle_key" value="q_bookzeds"/>
-			<property name="description_key" value="q_bookzeds_desc"/>
-			<property name="icon" value="ui_game_symbol_zombie"/>
-			<property name="repeatable" value="true"/>
-			<property name="category_key" value="challenge"/>
-			<property name="offer_key" value="q_bookzeds_desc"/>
-			<property name="difficulty" value="easy"/>
-			<property name="shareable" value="false"/>
-
-			<reward type="Exp" value="50"/>
-			<reward type="Item" id="modGunHeadShotSchematic" value="1"/>
-		</quest>
-		
 		
 		<quest id="q_BowTraining">
 			<property name="name_key" value="q_BowTraining"/>
@@ -48,13 +32,12 @@
 				<requirement type="Holding" id="gunBowT0PrimitiveBow"/>
 			
 			<reward type="Exp" value="1000"/>
-			<reward type="Item" id="resourceBowTest" value="2"/>
-			<reward type="Item" id="qPistolTraining" value="1"/>
+			<reward type="Item" id="resourceBowTest" value="1"/>
 			<reward type="Item" id="gunHandgunT1Pistol" value="1"/>
 			<reward type="Item" id="ammo9mmBulletBall" value="50"/>
+			<reward type="Quest" id="q_PistolTraining"/>
 		</quest>
 		
-			
 		<quest id="q_PistolTraining">
 			<property name="name_key" value="q_PistolTraining"/>
 			<property name="subtitle_key" value="q_PistolTraining"/>
@@ -70,27 +53,27 @@
 				<requirement type="Holding" id="gunHandgunT1Pistol" phase="1"/>
 						
 			<reward type="Exp" value="1500"/>
-			<reward type="Item" id="resourcePistolTest" value="1"/>
-			<reward type="Item" id="gunRifleT1HuntingRifle" value="1"/>
-			<reward type="Item" id="ammo762mmBulletBall" value="50"/>
 			<reward type="Item" id="PistolCoin" value="1"/>
-			<reward type="Quest" id="craftqRifleTraining"/>
+			<reward type="Quest" id="craftresourcePistolTest"/>
 		</quest>
-	
-		<quest id="craftqRifleTraining">
-			<property name="name_key" value="craftqRifleTraining"/>
-			<property name="subtitle_key" value="craftqRifleTraining_desc"/>
-			<property name="description_key" value="craftqRifleTraining_desc"/>
+		
+		<quest id="craftresourcePistolTest">
+			<property name="name_key" value="craftresourcePistolTest"/>
+			<property name="subtitle_key" value="craftresourcePistolTest_desc"/>
+			<property name="description_key" value="craftresourcePistolTest_desc"/>
 			<property name="icon" value="ui_game_symbol_book"/>
 			<property name="category_key" value="quest"/>
 			<property name="difficulty" value="veryeasy"/>
 			<property name="shareable" value="false"/>
 
-			<objective type="Craft" id="qRifleTraining" value="1"/>
-						
+			<objective type="Craft" id="resourcePistolTest" value="1"/>
+			
 			<reward type="Exp" value="50"/>
+			<reward type="Item" id="gunRifleT1HuntingRifle" value="1"/>
+			<reward type="Item" id="ammo762mmBulletBall" value="60"/>
+			<reward type="Quest" id="q_RifleTraining"/>
 		</quest>
-	
+		
 		<quest id="q_RifleTraining">
 			<property name="name_key" value="q_RifleTraining"/>
 			<property name="subtitle_key" value="q_RifleTraining"/>
@@ -106,7 +89,6 @@
 				<requirement type="Holding" id="gunRifleT1HuntingRifle" phase="1"/>
 			
 			<reward type="Exp" value="2000"/>
-			<reward type="Item" id="resourcePistolTest" value="1"/>
 			<reward type="Item" id="RifleCoin" value="1"/>
 			<reward type="Quest" id="craftresourceRifleTest"/>
 		</quest>
@@ -139,6 +121,22 @@
 			
 			<reward type="Exp" value="2500"/>
 		</quest>
+		
+		<quest id="q_bookzeds">
+			<property name="name_key" value="q_bookzeds"/>
+			<property name="subtitle_key" value="q_bookzeds"/>
+			<property name="description_key" value="q_bookzeds_desc"/>
+			<property name="icon" value="ui_game_symbol_zombie"/>
+			<property name="repeatable" value="true"/>
+			<property name="category_key" value="challenge"/>
+			<property name="offer_key" value="q_bookzeds_desc"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+
+			<reward type="Exp" value="50"/>
+			<reward type="Item" id="modGunHeadShotSchematic" value="1"/>
+		</quest>
+		
 		
 	</append>
 
