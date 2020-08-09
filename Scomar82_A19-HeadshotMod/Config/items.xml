@@ -85,7 +85,7 @@
 		</item>
 
 		<item name="PistolCoin">
-			<property name="Description" value="Winner!!!"/>
+			<property name="Description" value="PistolCoinDesc"/>
 			<property name="HoldType" value="45"/>
 			<property name="Tags" value="junk"/>
 			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
@@ -99,7 +99,7 @@
 		</item>
 
 		<item name="RifleCoin">
-			<property name="Description" value="Winner!!!"/>
+			<property name="Description" value="RifleCoinDesc"/>
 			<property name="HoldType" value="45"/>
 			<property name="Tags" value="junk"/>
 			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
