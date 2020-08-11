@@ -12,7 +12,7 @@
 			<property name="Material" value="Mmetal"/>
 			<property name="Stacknumber" value="10"/> <!-- STK ammobundle -->
 			<property name="Weight" value="0"/>
-			<property name="Group" value="Ammo/Weapons"/>
+			<property name="Group" value="Dismantle"/>
 			<property class="Action0">
 				<property name="Class" value="OpenBundle"/>
 				<property name="Delay" value="0"/>

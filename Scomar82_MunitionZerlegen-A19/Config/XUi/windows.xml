@@ -1,0 +1,7 @@
+<Scomar82_MunitionZerlegen>
+	
+	<!-- weiteres Icon ins Skillmenü einfügen-->
+	<set xpath="/windows/window[@name='windowCraftingList']/panel[@name='content']/rect[@name='categorySelector']/grid[@name='categories']/@cols">10</set>
+	<set xpath="/windows/window[@name='windowCraftingList']/panel[@name='content']/rect[@name='categorySelector']/grid[@name='categories']/@cell_width">38</set>
+	
+</Scomar82_MunitionZerlegen>

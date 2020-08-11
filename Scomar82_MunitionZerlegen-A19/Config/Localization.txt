@@ -31,3 +31,4 @@ resourceBundle100MuniEisenPfeil,items,Ammo,,,Disassembled Arrows (100%),,Zerlegt
 resourceBundle100MuniStahlPfeil,items,Ammo,,,Disassembled Arrows (100%),,Zerlegte Pfeile (100%),,,,,,,,,,,,
 resourceBundle100MuniEisenBolzen,items,Ammo,,,Disassembled Bolts (100%),,Zerlegte Bolzen (100%),,,,,,,,,,,,
 resourceBundle100MuniStahlBolzen,items,Ammo,,,Disassembled Bolts (100%),,Zerlegte Bolzen (100%),,,,,,,,,,,,
+lblCategoryDismanle,UI,Tooltip,,,Dismatle,,Zerlegen,,,,,,,,,,,,
