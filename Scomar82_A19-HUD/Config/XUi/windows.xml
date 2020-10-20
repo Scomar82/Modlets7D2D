@@ -8,7 +8,7 @@
 		<window name="HUDLeftStatBars">
 			<rect name="hud" pos="9,156" rows="1" cols="4" width="346" cell_width="52" cell_height="132" side="left">
 				
-				<rect width="50" height="130" pos="0,-20" controller="HUDStatBar" stat_type="Stamina" visible="{statvisible}">
+				<rect width="50" height="130" pos="65,-20" controller="HUDStatBar" stat_type="Stamina" visible="{statvisible}">
 					<sprite depth="1" name="border" color="0,0,0,128" type="sliced"/>
 					<sprite depth="2" name="background" color="0,0,0,140" type="sliced" />
 					<filledsprite depth="3" name="background" color="110,110,110,128" width="50" type="filled" fill="{statmodifiedmax}" filldirection="vertical"/>
@@ -20,7 +20,7 @@
 					<filledsprite depth="3" name="background" color="0,0,0,255" width="50" fillcenter="false" type="filled" fill="{statmodifiedmax}" filldirection="vertical"/>
 				</rect>
 
-				<rect width="50" height="130" pos="65,-20" controller="HUDStatBar" stat_type="Health" visible="{statvisible}">
+				<rect width="50" height="130" pos="0,-20" controller="HUDStatBar" stat_type="Health" visible="{statvisible}">
 					<sprite depth="1" name="border" color="0,0,0,128" type="sliced"/>
 					<sprite depth="2" name="background" color="0,0,0,140" type="sliced" />
 					<filledsprite depth="3" name="background" color="110,110,110,128" width="50" type="filled" fill="{statmodifiedmax}" filldirection="vertical"/>
@@ -81,15 +81,6 @@
 				<label depth="2" name="elevLabel" pos="24,-32" width="80" height="18" text="{mapelevation}" font_size="18" color="[ora]" justify="right"/>
 			</rect>
 			
-			<rect name="hud" pos="265,70" width="110" height="60" controller="PlayerStatsWindow" visible="{statvisible}">
-				<sprite depth="1" pos="0,0" width="110" height="60" color="0,0,0,240" type="sliced" foregroundlayer="true"/>				
-				<sprite depth="2" name="tempIcon" width="21" height="21" pos="4,-4" sprite="ui_game_symbol_pistol" color="[iconColor]" foregroundlayer="true"/>
-				<sprite depth="2" name="tempIcon" width="21" height="21" pos="25,-4" sprite="ui_game_symbol_zombie" color="[iconColor]" foregroundlayer="true"/>
-				<label depth="2" name="tempLabel" pos="24,-4" width="80" height="18" text="{playerzombiekills}" font_size="18" color="[ora]" justify="right"/>
-				<sprite depth="2" name="elevIcon" width="21" height="21" pos="4,-32" sprite="ui_game_symbol_near_death_trauma" color="[iconColor]" foregroundlayer="true"/>
-				<label depth="2" name="elevLabel" pos="24,-32" width="80" height="18" text="{playerdeaths}" font_size="18" color="[ora]" justify="right"/>
-			</rect>
-
 			<rect name="hud" pos="9,195" rows="1" cols="1" width="173" cell_width="173" cell_height="48" side="left">
 				<rect width="171" height="46" controller="HUDStatBar" stat_type="Stealth" visible="{statvisible}">
 					<sprite depth="1" name="border" color="0,0,0,150" height="46" type="sliced" />
@@ -156,11 +147,28 @@
 				</grid>
 			</rect>
 			
-			<rect pos="-50,-38" width="75" height="75" >
-				<sprite depth="1" name="border" sprite="ui_game_filled_circle" color="[black]" pivot="center"/>
-				<sprite depth="2" height="73" width="73" name="background" sprite="ui_game_filled_circle" color="{xpcolor}" pivot="center" globalopacity="false" type="filled" fill="{xp}" filldirection="radial360"/>
-				<label depth="3" name="Lvl" width="73" height="24" pivot="center" justify="center" text="Lvl: {playerlevel}" font_size="20" controller="PlayerStatsWindow"/>
+			<rect pos="-290,-45" width="70" height="70" >
+				<sprite depth="1" name="border" sprite="ui_game_filled_circle" color="64,64,64" pivot="center"/>
+				<sprite depth="2" height="68" width="68" name="background" sprite="ui_game_filled_circle" color="{xpcolor}" pivot="center" globalopacity="false" type="filled" fill="{xp}" filldirection="radial360"/>
+				<label depth="3" name="Lvl" width="68" height="24" pivot="center" justify="center" text="Lvl: {playerlevel}" font_size="20" controller="PlayerStatsWindow"/>
 			</rect>
+			
+			<rect pos="-85,-3" width="75" height="75" controller="PlayerStatsWindow" visible="{statvisible}">
+				<sprite depth="1" width="75" height="75" name="border" color="222,255,163,55" type="sliced"/>
+				<filledsprite depth="5" width="71" height="71" pos="2,-2" name="background" color="0,0,0,290" type="filled" fill="1" />
+				<sprite depth="6" name="TodeIcon" width="65" height="65" pos="3,-5" sprite="ui_game_symbol_zombie" color="96,96,96,100" foregroundlayer="true"/>
+				<label depth="10" name="ZombiekillsLabel" width="75" height="37" text="{playerzombiekills}" font_size="24" color="[ora]" pos="37,-35" justify="center" pivot="center"/>
+			</rect>
+			
+
+			
+			<rect pos="763,-3" width="75" height="75" controller="PlayerStatsWindow" visible="{statvisible}">
+				<sprite depth="1" width="75" height="75" name="border" color="222,255,163,55" type="sliced"/>
+				<filledsprite depth="5" width="71" height="71" pos="2,-2" name="background" color="0,0,0,290" type="filled" fill="1" />
+				<sprite depth="6" name="TodeIcon" width="65" height="65" pos="3,-5" sprite="ui_game_symbol_near_death_trauma" color="96,96,96,100" foregroundlayer="true"/>
+				<label depth="10" name="TodeLabel" width="75" height="37" text="{playerdeaths}" font_size="24" color="[ora]" pos="37,-35" justify="center" pivot="center"/>
+			</rect>
+			
 		</window>
 	</append>
 		
