@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scomar82_SchematicParts>
+
+	<set xpath="/items/item[@name='blankNoteMaster']/property[@name='Material']/@value">MSchematicParts</set>
+	<set xpath="/items/item[@name='questMaster']/property[@name='Material']/@value">MSchematicParts</set>
+	<set xpath="/items/item[@name='schematicMaster']/property[@name='Material']/@value">MSchematicParts</set>
+	<set xpath="/items/item[@name='questMaster']/property[@name='Weight']/@value">8</set>
+	<set xpath="/items/item[@name='schematicMaster']/property[@name='Weight']/@value">8</set>
+	<set xpath="/items/item[@name='blankNoteMaster']/property[@name='Weight']/@value">8</set>
+	
+	<append xpath="/items">
+	
+		<item name="MSchematicParts">
+			<property name="DescriptionKey" value="MSchematicPartsDesc"/>
+			<property name="HoldType" value="21"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="#Other/Items?Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MSchematicParts"/>
+			<property name="Stacknumber" value="500"/>
+			<property name="FuelValue" value="5"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+		</item>
+
+		<item name="resPen"> <!-- Picture from Clker-Free-Vector-Images at https://pixabay.com/de/users/clker-free-vector-images-3736/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=37254 -->
+			<property name="DescriptionKey" value="resPenDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mwood"/>
+			<property name="Weight" value="1"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="EconomicValue" value="10"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="FuelValue" value="5"/>
+		</item>
+		
+		<item name="resRuler"> <!-- Picture from Clker-Free-Vector-Images at https://pixabay.com/de/users/clker-free-vector-images-3736/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=37254 -->
+			<property name="DescriptionKey" value="resRulerDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mplastics"/>
+			<property name="Weight" value="1"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="EconomicValue" value="10"/>
+			<property name="SellableToTrader" value="false"/>
+		</item>
+		
+		<item name="Kill100">
+			<property name="Extends" value="questMaster" />
+			<property name="CustomIcon" value="Kill100"/>
+			<property name="DescriptionKey" value="Kill100Desc"/>
+			<property name="Group" value="Science"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="q_Kill100" />
+			</property>
+		</item>
+		
+		<item name="Kill200">
+			<property name="Extends" value="questMaster" />
+			<property name="CustomIcon" value="Kill200"/>
+			<property name="DescriptionKey" value="Kill200Desc"/>
+			<property name="Group" value="Science"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="q_Kill200" />
+			</property>
+		</item>
+		
+		<item name="Kill250">
+			<property name="Extends" value="questMaster" />
+			<property name="CustomIcon" value="Kill250"/>
+			<property name="DescriptionKey" value="Kill250Desc"/>
+			<property name="Group" value="Science"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="q_Kill250" />
+			</property>
+		</item>
+		
+	</append>
+</Scomar82_SchematicParts>

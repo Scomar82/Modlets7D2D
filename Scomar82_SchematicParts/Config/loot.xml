@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scomar82_SchematicParts>
+	
+	<!-- Loot Groups -->
+	<append xpath="/lootcontainers/lootgroup[@name='groupCraftingUncommon']" >
+		<item name="resPen" count="1" />
+		<item name="resRuler" count="1,2"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupScrapUncommon']" >
+		<item name="resPen" count="1,2" />
+		<item name="resRuler" count="1"/>
+	</append>
+	
+	<!-- Loot Containers -->
+	<append xpath="/lootcontainers/lootcontainer[@id='22']" >
+		<item name="resPen" count="1" prob="0.4" />
+		<item name="resRuler" count="1" prob="0.4"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='23']" >
+		<item name="resPen" count="1" prob="0.4" />
+		<item name="resRuler" count="1" prob="0.4"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='24']" >
+		<item name="resPen" count="1" prob="0.4" />
+		<item name="resRuler" count="1" prob="0.4"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='42']" >
+		<item name="resPen" count="1" prob="0.6" />
+		<item name="resRuler" count="1" prob="0.3"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='44']" >
+		<item name="resPen" count="1" prob="0.3" />
+		<item name="resRuler" count="1" prob="0.5"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='92']" >
+		<item name="resPen" count="1" prob="0.1" />
+		<item name="resRuler" count="1" prob="0.1"/>
+	</append>
+	
+</Scomar82_SchematicParts>

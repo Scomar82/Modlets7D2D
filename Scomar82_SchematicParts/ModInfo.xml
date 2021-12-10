@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+	<ModInfo>
+		<Name value="Scomar82_SchematicParts"/>
+		<Description value="All schematics are scrapable into parts. Craft books and schematics with this parts."/>
+		<Author value="Scomar82"/>
+		<Version value="2.0" comp="A20"/>
+		<Website value="https://github.com/Scomar82/7-Days-Modlets"/>
+	</ModInfo>
+</xml>
