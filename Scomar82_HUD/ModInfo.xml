@@ -3,8 +3,8 @@
 	<ModInfo>
 		<Name value="Scomar82-HUD" />
 		<Description value="Simple HUD-Modification" />
-		<Author value="Scomar" />
-		<Version value="2.1" comp="A20"/>
+		<Author value="Scomar82" />
+		<Version value="2.1" compat="A20"/>
 		<Website value="https://github.com/Scomar82/7-Days-Modlets" />
 	</ModInfo>
 </xml>
