@@ -1,0 +1,183 @@
+<Scomar82_AmmoDismember>
+
+	<append xpath="/recipes">
+	
+		<!--  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx   Standard   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx    -->
+		
+		<recipe name="resourceBundle90Muni" count="1" craft_time="10">
+			<ingredient name="ammo9mmBulletBall" count="50"/>
+		</recipe>
+		
+		<recipe name="resourceBundle90Muni44" count="1" craft_time="10">
+			<ingredient name="ammo44MagnumBulletBall" count="50"/>
+		</recipe>
+		
+		<recipe name="resourceBundle90Muni762" count="1" craft_time="10">
+			<ingredient name="ammo762mmBulletBall" count="50"/>
+		</recipe>
+		
+		<recipe name="resourceBundle90MuniSchrot" count="1" craft_time="10">
+			<ingredient name="ammoShotgunShell" count="50"/>
+		</recipe>
+		
+		<recipe name="resourceBundle90MuniEisenPfeil" count="1" craft_time="10">
+			<ingredient name="ammoArrowIron" count="50"/>
+		</recipe>
+		
+		<recipe name="resourceBundle90MuniEisenBolzen" count="1" craft_time="10">
+			<ingredient name="ammoCrossbowBoltIron" count="50"/>
+		</recipe>
+		
+		<!--  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx   AP   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx    -->
+		
+		<recipe name="resourceBundle90MuniAP" count="1" craft_time="10">
+			<ingredient name="ammo9mmBulletAP" count="50"/>
+		</recipe>
+		
+		<recipe name="resourceBundle90Muni44AP" count="1" craft_time="10">
+			<ingredient name="ammo44MagnumBulletAP" count="50"/>
+		</recipe>
+		
+		<recipe name="resourceBundle90Muni762AP" count="1" craft_time="10">
+			<ingredient name="ammo762mmBulletAP" count="50"/>
+		</recipe>
+		
+		<recipe name="resourceBundle90MuniSchrotSlug" count="1" craft_time="10">
+			<ingredient name="ammoShotgunSlug" count="50"/>
+		</recipe>
+		
+		<recipe name="resourceBundle90MuniStahlPfeil" count="1" craft_time="10">
+			<ingredient name="ammoArrowSteelAP" count="50"/>
+		</recipe>
+		
+		<recipe name="resourceBundle90MuniStahlBolzen" count="1" craft_time="10">
+			<ingredient name="ammoCrossbowBoltSteelAP" count="50"/>
+		</recipe>
+		
+		<!--  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx   HP   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx    -->
+		
+		<recipe name="resourceBundle90MuniHP" count="1" craft_time="10">
+			<ingredient name="ammo9mmBulletHP" count="50"/>
+		</recipe>
+		
+		<recipe name="resourceBundle90Muni44HP" count="1" craft_time="10">
+			<ingredient name="ammo44MagnumBulletHP" count="50"/>
+		</recipe>
+		
+		<recipe name="resourceBundle90Muni762HP" count="1" craft_time="10">
+			<ingredient name="ammo762mmBulletHP" count="50"/>
+		</recipe>
+		
+		<!--  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx   Rezepte für Werkbank   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx    -->
+		<!--  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx   Standard   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx    -->
+		
+		<recipe name="resourceBundle100Muni" count="1" craft_time="5" craft_area="workbench" tags="learnable,perkAdvancedEngineering">
+			<ingredient name="ammo9mmBulletBall" count="50"/>
+		</recipe>
+		
+		<recipe name="resourceBundle100Muni44" count="1" craft_time="5" craft_area="workbench" tags="learnable,perkAdvancedEngineering">
+			<ingredient name="ammo44MagnumBulletBall" count="50"/>
+		</recipe>
+		
+		<recipe name="resourceBundle100Muni762" count="1" craft_time="5" craft_area="workbench" tags="learnable,perkAdvancedEngineering">
+			<ingredient name="ammo762mmBulletBall" count="50"/>
+		</recipe>
+		
+		<recipe name="resourceBundle100MuniSchrot" count="1" craft_time="5" craft_area="workbench" tags="learnable,perkAdvancedEngineering">
+			<ingredient name="ammoShotgunShell" count="50"/>
+		</recipe>
+		
+		<recipe name="resourceBundle100MuniEisenPfeil" count="1" craft_time="5" craft_area="workbench" tags="learnable,perkAdvancedEngineering">
+			<ingredient name="ammoArrowIron" count="50"/>
+		</recipe>
+		
+		<recipe name="resourceBundle100MuniEisenBolzen" count="1" craft_time="5" craft_area="workbench" tags="learnable,perkAdvancedEngineering">
+			<ingredient name="ammoCrossbowBoltIron" count="50"/>
+		</recipe>
+		
+		<!--  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx   AP   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx    -->
+		
+		<recipe name="resourceBundle100MuniAP" count="1" craft_time="5" craft_area="workbench" tags="learnable,perkAdvancedEngineering">
+			<ingredient name="ammo9mmBulletAP" count="50"/>
+		</recipe>
+		
+		<recipe name="resourceBundle100Muni44AP" count="1" craft_time="5" craft_area="workbench" tags="learnable,perkAdvancedEngineering">
+			<ingredient name="ammo44MagnumBulletAP" count="50"/>
+		</recipe>
+		
+		<recipe name="resourceBundle100Muni762AP" count="1" craft_time="5" craft_area="workbench" tags="learnable,perkAdvancedEngineering">
+			<ingredient name="ammo762mmBulletAP" count="50"/>
+		</recipe>
+		
+		<recipe name="resourceBundle100MuniSchrotSlug" count="1" craft_time="5" craft_area="workbench" tags="learnable,perkAdvancedEngineering">
+			<ingredient name="ammoShotgunSlug" count="50"/>
+		</recipe>
+		
+		<recipe name="resourceBundle100MuniStahlPfeil" count="1" craft_time="5" craft_area="workbench" tags="learnable,perkAdvancedEngineering">
+			<ingredient name="ammoArrowSteelAP" count="50"/>
+		</recipe>
+		
+		<recipe name="resourceBundle100MuniStahlBolzen" count="1" craft_time="5" craft_area="workbench" tags="learnable,perkAdvancedEngineering">
+			<ingredient name="ammoCrossbowBoltSteelAP" count="50"/>
+		</recipe>
+				
+		<!--  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx   HP   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx    -->
+		
+		<recipe name="resourceBundle100MuniHP" count="1" craft_time="5" craft_area="workbench" tags="learnable,perkAdvancedEngineering">
+			<ingredient name="ammo9mmBulletHP" count="50"/>
+		</recipe>
+		
+		<recipe name="resourceBundle100Muni44HP" count="1" craft_time="5" craft_area="workbench" tags="learnable,perkAdvancedEngineering">
+			<ingredient name="ammo44MagnumBulletHP" count="50"/>
+		</recipe>
+		
+		<recipe name="resourceBundle100Muni762HP" count="1" craft_time="5" craft_area="workbench" tags="learnable,perkAdvancedEngineering">
+			<ingredient name="ammo762mmBulletHP" count="50"/>
+		</recipe>
+		
+		<!--  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  Umwandeln  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx    -->
+		
+		<recipe name="ammoArrowStone" count="1" craft_time="1">
+			<ingredient name="ammoCrossbowBoltStone" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoCrossbowBoltStone" count="1" craft_time="1">
+			<ingredient name="ammoArrowStone" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoArrowIron" count="1" craft_time="1">
+			<ingredient name="ammoCrossbowBoltIron" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoCrossbowBoltIron" count="1" craft_time="1">
+			<ingredient name="ammoArrowIron" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoArrowSteelAP" count="1" craft_time="1">
+			<ingredient name="ammoCrossbowBoltSteelAP" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoCrossbowBoltSteelAP" count="1" craft_time="1">
+			<ingredient name="ammoArrowSteelAP" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoArrowFlaming" count="1" craft_time="1">
+			<ingredient name="ammoCrossbowBoltFlaming" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoCrossbowBoltFlaming" count="1" craft_time="1">
+			<ingredient name="ammoArrowFlaming" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoArrowExploding" count="1" craft_time="1">
+			<ingredient name="ammoCrossbowBoltExploding" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoCrossbowBoltExploding" count="1" craft_time="1">
+			<ingredient name="ammoArrowExploding" count="1"/>
+		</recipe>
+				
+	</append>
+
+
+</Scomar82_AmmoDismember>

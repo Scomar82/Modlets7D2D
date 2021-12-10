@@ -1,0 +1,338 @@
+<Scomar82_AmmoDismember>
+	
+	<append xpath="/items" >
+
+		<!--9mm-->
+		<item name="resourceBundle90Muni">
+			<property name="CustomIcon" value="rB90Muni9"/><property name="ItemTypeIcon" value="bundle"/>
+			<property name="DescriptionKey" value="resourceBundle90MuniDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Stacknumber" value="10"/> <!-- STK ammobundle -->
+			<property name="Weight" value="0"/>
+			<property name="Group" value="Dismantle"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip"/>
+				<property name="Create_item_count" value="45,45,45"/>
+				<!--
+				This can spawn multiple item types and quantities. No randomness.
+				<property name="Create_item" value="ammo9mmBulletBall,drinkCanRiverWater"/>
+				<property name="Create_item_count" value="50,5"/>
+				-->
+			</property>
+		</item>
+		
+		<item name="resourceBundle90MuniAP">
+			<property name="Extends" value="resourceBundle90Muni"/>
+			<property name="CustomIcon" value="rB90Muni9AP"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip"/>
+				<property name="Create_item_count" value="45,90,45"/>
+			</property>
+		</item>
+		
+		<item name="resourceBundle90MuniHP">
+			<property name="Extends" value="resourceBundle90Muni"/>
+			<property name="CustomIcon" value="rB90Muni9HP"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip"/>
+				<property name="Create_item_count" value="45,45,90"/>
+			</property>
+		</item>
+		
+		<!--.44-->	
+		<item name="resourceBundle90Muni44">
+			<property name="Extends" value="resourceBundle90Muni"/>
+			<property name="CustomIcon" value="rB90Muni44"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip"/>
+				<property name="Create_item_count" value="45,90,45"/>
+			</property>
+		</item>
+		
+		<item name="resourceBundle90Muni44AP">
+			<property name="Extends" value="resourceBundle90Muni"/>
+			<property name="CustomIcon" value="rB90Muni44AP"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip"/>
+				<property name="Create_item_count" value="45,135,45"/>
+			</property>
+		</item>
+		
+		<item name="resourceBundle90Muni44HP">
+			<property name="Extends" value="resourceBundle90Muni"/>
+			<property name="CustomIcon" value="rB90Muni44HP"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip"/>
+				<property name="Create_item_count" value="45,90,90"/>
+			</property>
+		</item>
+		
+		<!--7.62-->
+		
+		<item name="resourceBundle90Muni762">
+			<property name="Extends" value="resourceBundle90Muni"/>
+			<property name="CustomIcon" value="rB90Muni762"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip"/>
+				<property name="Create_item_count" value="45,135,45"/>
+			</property>
+		</item>
+		
+		<item name="resourceBundle90Muni762AP">
+			<property name="Extends" value="resourceBundle90Muni"/>
+			<property name="CustomIcon" value="rB90Muni762AP"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip"/>
+				<property name="Create_item_count" value="45,225,45"/>
+			</property>
+		</item>
+		
+		<item name="resourceBundle90Muni762HP">
+			<property name="Extends" value="resourceBundle90Muni"/>
+			<property name="CustomIcon" value="rB90Muni762HP"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip"/>
+				<property name="Create_item_count" value="45,135,90"/>
+			</property>
+		</item>
+		
+		<!--Schrot-->
+		<item name="resourceBundle90MuniSchrot">
+			<property name="Extends" value="resourceBundle90Muni"/>
+			<property name="CustomIcon" value="rB90MuniSchrot"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourcePaper,resourceGunPowder,resourceBuckshot"/>
+				<property name="Create_item_count" value="45,180,45"/>
+			</property>
+		</item>
+		
+		<item name="resourceBundle90MuniSchrotSlug">
+			<property name="Extends" value="resourceBundle90Muni"/>
+			<property name="CustomIcon" value="rB90MuniSchrotAP"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceScrapPolymers,resourceGunPowder,resourceBulletTip"/>
+				<property name="Create_item_count" value="45,180,90"/>
+			</property>
+		</item>
+		
+		<!--Pfeile & Bolzen-->
+		
+		<item name="resourceBundle90MuniEisenPfeil">
+			<property name="Extends" value="resourceBundle90Muni"/>
+			<property name="CustomIcon" value="rB90MuniArrow"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceArrowHeadIron,resourceWood,resourceFeather"/>
+				<property name="Create_item_count" value="45,45,45"/>
+			</property>
+		</item>
+		
+		<item name="resourceBundle90MuniStahlPfeil">
+			<property name="Extends" value="resourceBundle90Muni"/>
+			<property name="CustomIcon" value="rB90MuniArrowAP"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceArrowHeadSteelAP,resourceScrapPolymers"/>
+				<property name="Create_item_count" value="45,90"/>
+			</property>
+		</item>
+		
+		<item name="resourceBundle90MuniEisenBolzen">
+			<property name="Extends" value="resourceBundle90Muni"/>
+			<property name="CustomIcon" value="rB90MuniBolt"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceArrowHeadIron,resourceWood,resourceFeather"/>
+				<property name="Create_item_count" value="45,45,45"/>
+			</property>
+		</item>
+		
+		<item name="resourceBundle90MuniStahlBolzen">
+			<property name="Extends" value="resourceBundle90Muni"/>
+			<property name="CustomIcon" value="rB90MuniBoltAP"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceArrowHeadSteelAP,resourceScrapPolymers"/>
+				<property name="Create_item_count" value="45,90"/>
+			</property>
+		</item>
+		
+		<!--  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx    -->
+		
+		<!--9mm für Werkbank-->		
+		<item name="resourceBundle100Muni">
+			<property name="Extends" value="resourceBundle90Muni"/>
+			<property name="CustomIcon" value="rBMuni9"/>
+			<property name="DescriptionKey" value="resourceBundle100MuniDesc"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip"/>
+				<property name="Create_item_count" value="50,50,50"/>
+			</property>
+		</item>
+		
+		<item name="resourceBundle100MuniAP">
+			<property name="Extends" value="resourceBundle90Muni"/>
+			<property name="CustomIcon" value="rBMuni9AP"/>
+			<property name="DescriptionKey" value="resourceBundle100MuniDesc"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip"/>
+				<property name="Create_item_count" value="50,100,50"/>
+			</property>
+		</item>
+		
+		<item name="resourceBundle100MuniHP">
+			<property name="Extends" value="resourceBundle90Muni"/>
+			<property name="CustomIcon" value="rBMuni9HP"/>
+			<property name="DescriptionKey" value="resourceBundle100MuniDesc"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip"/>
+				<property name="Create_item_count" value="50,50,100"/>
+			</property>
+		</item>
+		
+		<!--.44 für werkbank-->
+		<item name="resourceBundle100Muni44">
+			<property name="Extends" value="resourceBundle90Muni"/>
+			<property name="CustomIcon" value="rBMuni44"/>
+			<property name="DescriptionKey" value="resourceBundle100MuniDesc"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip"/>
+				<property name="Create_item_count" value="50,100,50"/>
+			</property>
+		</item>
+		
+		<item name="resourceBundle100Muni44AP">
+			<property name="Extends" value="resourceBundle90Muni"/>
+			<property name="CustomIcon" value="rBMuni44AP"/>
+			<property name="DescriptionKey" value="resourceBundle100MuniDesc"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip"/>
+				<property name="Create_item_count" value="50,150,50"/>
+			</property>
+		</item>
+		
+		<item name="resourceBundle100Muni44HP">
+			<property name="Extends" value="resourceBundle90Muni"/>
+			<property name="CustomIcon" value="rBMuni44HP"/>
+			<property name="DescriptionKey" value="resourceBundle100MuniDesc"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip"/>
+				<property name="Create_item_count" value="50,100,100"/>
+			</property>
+		</item>
+		
+		<!--7.62 für werkbank-->
+		<item name="resourceBundle100Muni762">
+			<property name="Extends" value="resourceBundle90Muni"/>
+			<property name="CustomIcon" value="rBMuni762"/>
+			<property name="DescriptionKey" value="resourceBundle100MuniDesc"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip"/>
+				<property name="Create_item_count" value="50,150,50"/>
+			</property>
+		</item>
+		
+		<item name="resourceBundle100Muni762AP">
+			<property name="Extends" value="resourceBundle90Muni"/>
+			<property name="CustomIcon" value="rBMuni762AP"/>
+			<property name="DescriptionKey" value="resourceBundle100MuniDesc"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip"/>
+				<property name="Create_item_count" value="50,250,50"/>
+			</property>
+		</item>
+		
+		<item name="resourceBundle100Muni762HP">
+			<property name="Extends" value="resourceBundle90Muni"/>
+			<property name="CustomIcon" value="rBMuni762HP"/>
+			<property name="DescriptionKey" value="resourceBundle100MuniDesc"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceBulletCasing,resourceGunPowder,resourceBulletTip"/>
+				<property name="Create_item_count" value="50,150,100"/>
+			</property>
+		</item>
+		
+		<!--Schrot für Werkbank-->
+		<item name="resourceBundle100MuniSchrot">
+			<property name="Extends" value="resourceBundle90Muni"/>
+			<property name="CustomIcon" value="rBMuniSchrot"/>
+			<property name="DescriptionKey" value="resourceBundle100MuniDesc"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourcePaper,resourceGunPowder,resourceBuckshot"/>
+				<property name="Create_item_count" value="50,200,50"/>
+			</property>
+		</item>
+		
+		<item name="resourceBundle100MuniSchrotSlug">
+			<property name="Extends" value="resourceBundle90Muni"/>
+			<property name="CustomIcon" value="rBMuniSchrotAP"/>
+			<property name="DescriptionKey" value="resourceBundle100MuniDesc"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceScrapPolymers,resourceGunPowder,resourceBulletTip"/>
+				<property name="Create_item_count" value="50,200,100"/>
+			</property>
+		</item>
+		
+		<!--Pfeile & Bolzen für Werkbank-->
+		
+		<item name="resourceBundle100MuniEisenPfeil">
+			<property name="Extends" value="resourceBundle90Muni"/>
+			<property name="CustomIcon" value="rBMuniArrow"/>
+			<property name="DescriptionKey" value="resourceBundle100MuniDesc"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceArrowHeadIron,resourceWood,resourceFeather"/>
+				<property name="Create_item_count" value="50,50,50"/>
+			</property>
+		</item>
+		
+		<item name="resourceBundle100MuniStahlPfeil">
+			<property name="Extends" value="resourceBundle90Muni"/>
+			<property name="CustomIcon" value="rBMuniArrowAP"/>
+			<property name="DescriptionKey" value="resourceBundle100MuniDesc"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceArrowHeadSteelAP,resourceScrapPolymers"/>
+				<property name="Create_item_count" value="50,100"/>
+			</property>
+		</item>
+		
+		<item name="resourceBundle100MuniEisenBolzen">
+			<property name="Extends" value="resourceBundle90Muni"/>
+			<property name="CustomIcon" value="rBMuniBolt"/>
+			<property name="DescriptionKey" value="resourceBundle100MuniDesc"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceArrowHeadIron,resourceWood,resourceFeather"/>
+				<property name="Create_item_count" value="50,50,50"/>
+			</property>
+		</item>
+		
+		<item name="resourceBundle100MuniStahlBolzen">
+			<property name="Extends" value="resourceBundle90Muni"/>
+			<property name="CustomIcon" value="rBMuniBoltAP"/>
+			<property name="DescriptionKey" value="resourceBundle100MuniDesc"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceArrowHeadSteelAP,resourceScrapPolymers"/>
+				<property name="Create_item_count" value="50,100"/>
+			</property>
+		</item>
+		
+	</append>
+		
+</Scomar82_AmmoDismember>

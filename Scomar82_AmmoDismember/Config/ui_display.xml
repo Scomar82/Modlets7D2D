@@ -1,0 +1,15 @@
+<Scomar82_AmmoDismember>
+
+	<append xpath="/ui_display_info/crafting_category_display/crafting_category_list[@display_type='']" >
+
+		<crafting_category name="Dismantle" icon="icon_dismantle" display_name="lblCategoryDismanle" />
+
+	</append>
+	
+	<append xpath="/ui_display_info/crafting_category_display/crafting_category_list[@display_type='workbench']" >
+
+		<crafting_category name="Dismantle" icon="icon_dismantle" display_name="lblCategoryDismanle" />
+
+	</append>
+
+</Scomar82_AmmoDismember>

@@ -1,0 +1,11 @@
+<Scomar82_AmmoDismember>
+	<!-- Hinweis -->
+		
+	<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']">
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="resourceBundle100Muni,resourceBundle100MuniAP,resourceBundle100MuniHP,resourceBundle100Muni44,resourceBundle100Muni44AP,resourceBundle100Muni44HP,resourceBundle100Muni762,resourceBundle100Muni762AP,resourceBundle100Muni762HP,resourceBundle100MuniSchrot,resourceBundle100MuniSchrotSlug,resourceBundle100MuniEisenPfeil,resourceBundle100MuniEisenBolzen,resourceBundle100MuniStahlPfeil,resourceBundle100MuniStahlBolzen"/>
+		</effect_group>
+	</append>
+	
+	
+</Scomar82_AmmoDismember>
