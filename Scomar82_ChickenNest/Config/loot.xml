@@ -1,0 +1,10 @@
+<Scomar82_ChickenNest>
+
+<append xpath="/lootcontainers">
+	<lootcontainer name="ChickenNestReady" count="2" size="2,1" sound_open="UseActions/open_garbage" sound_close="nest_destroy" destroy_on_close="true" loot_quality_template="qualBaseTemplate">
+		<item name="foodEgg" count="2,4"/>
+		<item name="resourceFeather" count="4,8"/>
+	</lootcontainer>
+</append>
+		
+</Scomar82_ChickenNest>

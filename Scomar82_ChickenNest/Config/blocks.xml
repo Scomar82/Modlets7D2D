@@ -1,0 +1,71 @@
+<Scomar82_ChickenNest>
+
+<append xpath="/blocks" >
+	<block name="ChickenNestEmpty">
+				<property name="DescriptionKey" value="ChickenNestEmptyDesc"/>
+				<property name="DisplayInfo" value="Name"/>
+				<property name="CustomIcon" value="cntBirdnest"/>
+				<property name="CustomIconTint" value="CC00CC"/>
+				<property name="UnlockedBy" value="craftingSeeds"/>
+				<property name="CreativeMode" value="Player"/>
+				<property name="Material" value="Mwood_weak"/>
+				<property name="ModelOffset" value="0,0,0"/>
+				<property name="Collide" value="melee,bullet,arrow,rocket"/>	
+				<property name="Shape" value="ModelEntity"/>
+				<property name="Model" value="@:Entities/LootContainers/birdnestPrefab.prefab"/>	
+				<property name="TintColor" value="204,51,51"/>
+				<property name="CreativeMode" value="Player"/>
+				<property class="RepairItems">
+					<property name="resourcefeather" value="2"/>
+				</property>
+				<property class="UpgradeBlock">
+					<property name="ToBlock" value="ChickenNestwithFeed"/>
+					<property name="Item" value="AnimalFeed"/>
+					<property name="ItemCount" value="1"/>
+					<property name="UpgradeHitCount" value="1"/>
+				</property>
+				<drop event="Destroy" name="ChickenNestEmpty" count="1"/>
+				<property name="CanPickup" value="false"/>
+				<property name="Group" value="Food/Cooking"/>
+	</block>
+	
+	<block name="ChickenNestwithFeed">
+				<property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey"/>
+				<property name="CustomIcon" value="cntBirdnest"/>
+				<property name="CustomIconTint" value="CC00CC"/>
+				<property name="CreativeMode" value="Player"/>
+				<property name="Material" value="Mwood_weak"/>
+				<property name="ModelOffset" value="0,.25,0"/>
+				<property name="Collide" value="melee,bullet,arrow,rocket"/>
+				<property name="Shape" value="ModelEntity"/>
+				<property name="Model" value="@:Entities/LootContainers/birdnestPrefab.prefab"/>
+				<property name="TintColor" value="255,204,0"/>
+				<property name="PlantGrowing.FertileLevel" value="0"/>
+				<property name="PlantGrowing.GrowthRate" value="45"/>
+				<property name="PlantGrowing.IsRandom" value="false"/>
+				<property name="PlantGrowing.Next" value="ChickenNestReady"/>
+				<drop event="Destroy" name="ChickenNestEmpty" count="1"/>
+	</block>
+
+	<block name="ChickenNestReady">
+				<property name="Class" value="Loot"/>
+				<property name="DisplayType" value="blockMulti"/>
+				<property name="CustomIcon" value="cntBirdnest"/>
+				<property name="CustomIconTint" value="CC00CC"/>
+				<property name="CreativeMode" value="Player"/>
+				<property name="Material" value="Mwood_weak"/>
+				<property name="MultiBlockDim" value="1,1,1"/>
+				<property name="ModelOffset" value="0,.5,0"/>
+				<property name="Collide" value="melee,bullet,arrow,rocket"/>
+				<property name="Shape" value="ModelEntity"/>
+				<property name="Model" value="@:Entities/LootContainers/birdnestPrefab.prefab"/>
+				<property name="TintColor" value="153,204,51"/>
+				<property name="LootList" value="ChickenNestReady"/>
+				<property name="CreativeMode" value="Player"/>
+				<drop event="Destroy" count="0" />
+				<property name="DowngradeBlock" value="ChickenNestEmpty"/>
+	</block>
+	
+</append>
+		
+</Scomar82_ChickenNest>

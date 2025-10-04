@@ -1,0 +1,9 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+
+AnimalFeed,items,item,,,Animal Feed,,Tierfutter,,,,,,,,,,,,
+AnimalFeedDesc,items,item,,,"Feed your animals. Use secondary action key.",,"Füttere deine Tiere. Benutze die sekundäre Aktionstaste.",,,,,,,,,,,,
+
+ChickenNestEmpty,blocks,block,,,Chicken-Nest [FF6666](empty)[-],,Hühnernest [FF6666](leer)[-],,,,,,,,,,,,
+ChickenNestEmptyDesc,items,,,,"Put some AnimalFeed in the nest and some time later you can harvest eggs and feathers. (use secondary action key)\n\nIt needs Seeds Level 8 to unlock.",,"Leg etwas Tierfutter in das Nest und einige Zeit später kannst du vielleicht ein paar Eier und Federn sammeln.(benutze sekundäre Aktionstaste)\n\nBenötigt Samen Level 8 zum freischalten.",,,,,,,,,,,,
+ChickenNestwithFeed,blocks,block,,,Chicken-Nest [FFCC66](with feed)[-],,Hühnernest [FFCC66](mit Futter)[-],,,,,,,,,,,,
+ChickenNestReady,blocks,block,,,Chicken-Nest [66CC66](ready)[-],,Hühnernest [66CC66](fertig)[-],,,,,,,,,,,,

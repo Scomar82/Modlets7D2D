@@ -1,0 +1,10 @@
+<Scomar82_ChickenNest>
+
+<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingSeeds']">
+		<display_entry item="ChickenNestEmpty" unlock_level="8" />
+		<effect_group>
+			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="8,100" value="1" tags="ChickenNestEmpty"/>
+		</effect_group>
+	</append>
+
+</Scomar82_ChickenNest>
