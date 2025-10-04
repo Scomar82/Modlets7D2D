@@ -1,0 +1,11 @@
+<Scomar82_Hobacs>
+    
+	<insertAfter xpath="/items/item[@name='schematicMaster']/property[@name='ItemTypeIcon']">
+        <property name="ItemTypeIconColor" value="170,255,136" />
+    </insertAfter>
+
+	<insertAfter xpath="/items/item[@name='schematicMaster']/property[@name='AltItemTypeIcon']">
+        <property name="AltItemTypeIconColor" value="255,102,0" />
+    </insertAfter>
+	
+</Scomar82_Hobacs>
