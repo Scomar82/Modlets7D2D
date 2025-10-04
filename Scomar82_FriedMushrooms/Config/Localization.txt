@@ -1,0 +1,4 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,german
+
+foodFriedMushrooms,items,item,,,"Fried Mushrooms","Gebratene Pilze"
+foodFriedMushroomsDesc,items,item,,,"Add a few mushrooms to the cooking pot, add some fat, fry for a while, and the delicious fried mushrooms are ready.","Ein paar Pilze in den Kochtopf, etwas Fett dazu, kurz anbraten und fertig sind die leckeren gebratenen Pilze."

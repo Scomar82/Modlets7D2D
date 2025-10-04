@@ -1,0 +1,11 @@
+<Scomar82_FriedMushrooms>
+    
+	<append xpath="/recipes">
+
+		<recipe name="foodFriedMushrooms" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="perkMasterChef" craft_time = "8">
+			<ingredient name="foodCropMushrooms" count="5"/>
+			<ingredient name="resourceAnimalFat" count="1"/>
+		</recipe>
+	</append>
+	
+</Scomar82_FriedMushrooms>
