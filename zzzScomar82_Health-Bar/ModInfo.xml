@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="Scomar82_Health-Bar"/>
+	<DisplayName value="Always visible Health-Bar"/>
+	<Description value="Shows enemy health bars."/>
+	<Author value="Scomar"/>
+	<Version value="2.0"/>
+	<Website value="https://github.com/Scomar82/7-Days-Modlets"/>
+</xml>
