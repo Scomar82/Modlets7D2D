@@ -1,0 +1,236 @@
+<Scomar82_AmmoConverter>
+
+	<append xpath="/recipes">
+	
+<!--  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx   Standard im Inventar craften  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx    -->
+		
+		<recipe name="ammo9mmBulletBall" count="1" craft_time="1">
+			<ingredient name="ammo44MagnumBulletBall" count="1"/>
+		</recipe>
+		
+		<recipe name="ammo9mmBulletBall" count="1" craft_time="1">
+			<ingredient name="ammo762mmBulletBall" count="1"/>
+		</recipe>
+		
+		<recipe name="ammo44MagnumBulletBall" count="1" craft_time="1">
+			<ingredient name="ammo9mmBulletBall" count="2"/>
+		</recipe>
+		
+		<recipe name="ammo44MagnumBulletBall" count="1" craft_time="1">
+			<ingredient name="ammo762mmBulletBall" count="1"/>
+		</recipe>
+		
+		<recipe name="ammo762mmBulletBall" count="1" craft_time="1">
+			<ingredient name="ammo9mmBulletBall" count="3"/>
+		</recipe>
+		
+		<recipe name="ammo762mmBulletBall" count="2" craft_time="1">
+			<ingredient name="ammo44MagnumBulletBall" count="3"/>
+		</recipe>
+		
+<!--  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx   HP in der Werkbank craften  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx    -->
+		
+		<recipe name="ammo9mmBulletHP" count="1" craft_time="1" craft_area="workbench">
+			<ingredient name="ammo44MagnumBulletHP" count="1"/>
+		</recipe>
+		
+		<recipe name="ammo9mmBulletHP" count="1" craft_time="1" craft_area="workbench">
+			<ingredient name="ammo762mmBulletHP" count="1"/>
+		</recipe>
+		
+		<recipe name="ammo44MagnumBulletHP" count="1" craft_time="1" craft_area="workbench">
+			<ingredient name="ammo9mmBulletHP" count="2"/>
+		</recipe>
+		
+		<recipe name="ammo44MagnumBulletHP" count="1" craft_time="1" craft_area="workbench">
+			<ingredient name="ammo762mmBulletHP" count="1"/>
+		</recipe>
+		
+		<recipe name="ammo762mmBulletHP" count="1" craft_time="1" craft_area="workbench">
+			<ingredient name="ammo9mmBulletHP" count="3"/>
+		</recipe>
+		
+		<recipe name="ammo762mmBulletHP" count="2" craft_time="1" craft_area="workbench">
+			<ingredient name="ammo44MagnumBulletHP" count="3"/>
+		</recipe>
+		
+<!--  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx   AP in der Werkbank craften  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx    -->
+		
+		<recipe name="ammo9mmBulletAP" count="1" craft_time="1" craft_area="workbench">
+			<ingredient name="ammo44MagnumBulletAP" count="1"/>
+		</recipe>
+		
+		<recipe name="ammo9mmBulletAP" count="1" craft_time="1" craft_area="workbench">
+			<ingredient name="ammo762mmBulletAP" count="1"/>
+		</recipe>
+		
+		<recipe name="ammo44MagnumBulletAP" count="2" craft_time="1" craft_area="workbench">
+			<ingredient name="ammo9mmBulletAP" count="3"/>
+		</recipe>
+		
+		<recipe name="ammo44MagnumBulletAP" count="1" craft_time="1" craft_area="workbench">
+			<ingredient name="ammo762mmBulletAP" count="1"/>
+		</recipe>
+		
+		<recipe name="ammo762mmBulletAP" count="1" craft_time="1" craft_area="workbench">
+			<ingredient name="ammo9mmBulletAP" count="3"/>
+		</recipe>
+		
+		<recipe name="ammo762mmBulletAP" count="3" craft_time="1" craft_area="workbench">
+			<ingredient name="ammo44MagnumBulletAP" count="5"/>
+		</recipe>
+		
+<!--  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  Umwandeln von Standard zu HP oder AP + HP <-> AP xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx    -->
+		
+<!--  xxxxxxx 9mm xxxxxxx  -->
+		
+		<recipe name="ammo9mmBulletHP" count="1" craft_time="1" craft_area="workbench">
+			<ingredient name="ammo9mmBulletBall" count="1"/>
+			<ingredient name="resourceBulletTip" count="1"/>
+		</recipe>
+		
+		<recipe name="ammo9mmBulletAP" count="1" craft_time="1" craft_area="workbench">
+			<ingredient name="ammo9mmBulletBall" count="1"/>
+			<ingredient name="resourceBulletTip" count="1"/>
+			<ingredient name="resourceGunPowder" count="1"/>
+		</recipe>
+		
+		<recipe name="ammo9mmBulletHP" count="1" craft_time="1" craft_area="workbench">
+			<ingredient name="ammo9mmBulletAP" count="1"/>
+		</recipe>
+		
+		<recipe name="ammo9mmBulletAP" count="1" craft_time="1" craft_area="workbench">
+			<ingredient name="ammo9mmBulletHP" count="1"/>
+			<ingredient name="resourceGunPowder" count="1"/>
+		</recipe>
+		
+<!--  xxxxxxx .44er xxxxxxx  -->
+		
+		<recipe name="ammo44MagnumBulletHP" count="1" craft_time="1" craft_area="workbench">
+			<ingredient name="ammo44MagnumBulletBall" count="1"/>
+			<ingredient name="resourceBulletTip" count="1"/>
+		</recipe>
+		
+		<recipe name="ammo44MagnumBulletAP" count="1" craft_time="1" craft_area="workbench">
+			<ingredient name="ammo44MagnumBulletBall" count="1"/>
+			<ingredient name="resourceBulletTip" count="1"/>
+			<ingredient name="resourceGunPowder" count="1"/>
+		</recipe>
+		
+		<recipe name="ammo44MagnumBulletHP" count="1" craft_time="1" craft_area="workbench">
+			<ingredient name="ammo44MagnumBulletAP" count="1"/>
+		</recipe>
+		
+		<recipe name="ammo44MagnumBulletAP" count="1" craft_time="1" craft_area="workbench">
+			<ingredient name="ammo44MagnumBulletHP" count="1"/>
+			<ingredient name="resourceGunPowder" count="1"/>
+		</recipe>
+		
+<!--  xxxxxxx 7.62mm xxxxxxx  -->
+		
+		<recipe name="ammo762mmBulletHP" count="1" craft_time="1" craft_area="workbench">
+			<ingredient name="ammo762mmBulletBall" count="1"/>
+			<ingredient name="resourceBulletTip" count="1"/>
+		</recipe>
+		
+		<recipe name="ammo762mmBulletAP" count="1" craft_time="1" craft_area="workbench">
+			<ingredient name="ammo762mmBulletBall" count="1"/>
+			<ingredient name="resourceBulletTip" count="1"/>
+			<ingredient name="resourceGunPowder" count="1"/>
+		</recipe>
+		
+		<recipe name="ammo762mmBulletHP" count="1" craft_time="1" craft_area="workbench">
+			<ingredient name="ammo762mmBulletAP" count="1"/>
+		</recipe>
+		
+		<recipe name="ammo762mmBulletAP" count="1" craft_time="1" craft_area="workbench">
+			<ingredient name="ammo762mmBulletHP" count="1"/>
+			<ingredient name="resourceGunPowder" count="1"/>
+		</recipe>
+		
+<!--  xxxxxxx Schrot xxxxxxx  -->
+		
+		<recipe name="ammoShotgunShell" count="1" craft_time="1" craft_area="workbench">
+			<ingredient name="ammoShotgunSlug" count="1"/>
+			<ingredient name="resourceBuckshot" count="1"/>
+			<ingredient name="resourcePaper" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoShotgunShell" count="1" craft_time="1" craft_area="workbench">
+			<ingredient name="ammoShotgunBreachingSlug" count="1"/>
+			<ingredient name="resourceBuckshot" count="1"/>
+			<ingredient name="resourcePaper" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoShotgunSlug" count="1" craft_time="1" craft_area="workbench">
+			<ingredient name="ammoShotgunShell" count="1"/>
+			<ingredient name="resourceBulletTip" count="2"/>
+			<ingredient name="resourceGunPowder" count="1"/>
+			<ingredient name="resourceScrapPolymers" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoShotgunSlug" count="1" craft_time="1" craft_area="workbench">
+			<ingredient name="ammoShotgunBreachingSlug" count="1"/>
+			<ingredient name="resourceBulletTip" count="2"/>
+			<ingredient name="resourceGunPowder" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoShotgunBreachingSlug" count="1" craft_time="1" craft_area="workbench">
+			<ingredient name="ammoShotgunShell" count="1"/>
+			<ingredient name="resourceForgedSteel" count="3"/>
+			<ingredient name="resourceClayLump" count="2"/>
+			<ingredient name="resourceScrapPolymers" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoShotgunBreachingSlug" count="1" craft_time="1" craft_area="workbench">
+			<ingredient name="ammoShotgunSlug" count="1"/>
+			<ingredient name="resourceForgedSteel" count="3"/>
+			<ingredient name="resourceClayLump" count="2"/>
+		</recipe>
+		
+<!--  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  Umwandeln von Bolzen und Pfeilen xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx    -->
+		
+		<recipe name="ammoArrowStone" count="1" craft_time="1">
+			<ingredient name="ammoCrossbowBoltStone" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoCrossbowBoltStone" count="1" craft_time="1">
+			<ingredient name="ammoArrowStone" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoArrowIron" count="1" craft_time="1">
+			<ingredient name="ammoCrossbowBoltIron" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoCrossbowBoltIron" count="1" craft_time="1">
+			<ingredient name="ammoArrowIron" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoArrowSteelAP" count="1" craft_time="1" craft_area="workbench">
+			<ingredient name="ammoCrossbowBoltSteelAP" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoCrossbowBoltSteelAP" count="1" craft_time="1" craft_area="workbench">
+			<ingredient name="ammoArrowSteelAP" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoArrowFlaming" count="1" craft_time="1" craft_area="workbench">
+			<ingredient name="ammoCrossbowBoltFlaming" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoCrossbowBoltFlaming" count="1" craft_time="1" craft_area="workbench">
+			<ingredient name="ammoArrowFlaming" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoArrowExploding" count="1" craft_time="1" craft_area="workbench">
+			<ingredient name="ammoCrossbowBoltExploding" count="1"/>
+		</recipe>
+		
+		<recipe name="ammoCrossbowBoltExploding" count="1" craft_time="1" craft_area="workbench">
+			<ingredient name="ammoArrowExploding" count="1"/>
+		</recipe>
+				
+	</append>
+
+
+</Scomar82_AmmoConverter>
